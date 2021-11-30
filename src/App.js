@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React, { useState } from 'react'
+import Body from './presentation/Body.jsx'
+import Image from './presentation/Image';
 
 function App() {
+  const [head, setHead] = useState('bird');
+  const [torso, setTorso] = useState('black-blouse');
+  const [legs, setLegs] = useState('blue-shorts');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <h1 className="header">Build Your Own Character</h1>
+      <div className="container">
+        <div className="dropDown">
+          <Body 
+            head={head} 
+            onHeadChange={setHead} 
+            torso={torso}
+            onTorsoChange={setTorso}
+            legs={legs}
+            onLegChange={setLegs}
+            />
+        </div>
+        <div className="images">
+          <Image head={head} torso={torso} legs={legs} />
+        </div>
+      </div>
+    </>
+  )
 }
 
 export default App;
