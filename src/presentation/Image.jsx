@@ -1,6 +1,8 @@
+import './Image.css';
+
 export default function Image({head, torso, legs}){
     return (
-        <section>
+        <section className="imageContainer">
             <div className="head"
                 style={{ backgroundImage: `url(./${head}-head.png)`, 
                 height: 200,
@@ -9,7 +11,7 @@ export default function Image({head, torso, legs}){
                 backgroundRepeat: 'no-repeat'
             }}>
             </div>
-            <div className="head"
+            <div className="torso"
                 style={{ backgroundImage: `url(./${torso}-torso.png)`, 
                 height: 200,
                 width: 250,
@@ -17,7 +19,7 @@ export default function Image({head, torso, legs}){
                 backgroundRepeat: 'no-repeat'
             }}>
             </div>
-            <div className="head"
+            <div className="legs"
                 style={{ backgroundImage: `url(./${legs}-legs.png)`, 
                 height: 200,
                 width: 250,
