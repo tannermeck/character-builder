@@ -5,25 +5,25 @@ export default function Image({head, torso, legs}){
         <section className="imageContainer">
             <div className="head"
                 style={{ backgroundImage: `url(./${head}-head.png)`, 
-                height: 200,
-                width: 250,
-                backgroundSize: 'cover',
+                // height: 200,
+                // width: 250,
+                // backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
             }}>
             </div>
             <div className="torso"
                 style={{ backgroundImage: `url(./${torso}-torso.png)`, 
-                height: 200,
-                width: 250,
-                backgroundSize: 'cover',
+                height: 100,
+                width: 150,
+                backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat'
             }}>
             </div>
             <div className="legs"
                 style={{ backgroundImage: `url(./${legs}-legs.png)`, 
-                height: 200,
-                width: 250,
-                backgroundSize: 'cover',
+                height: 100,
+                width: 150,
+                backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat'
             }}>
             </div>
