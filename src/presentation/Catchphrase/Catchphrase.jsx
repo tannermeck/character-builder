@@ -3,7 +3,7 @@ export default function Catchphrase({ catchphraseList }){
         <>
             <h3>Catchphrases:</h3>
             {catchphraseList.map(item => {
-                return <p>{item}</p>
+                return <p key={item}>{item}</p>
             })}
         </>
     )
