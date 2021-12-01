@@ -1,0 +1,16 @@
+.catchphraseContainer {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 50px;
+}
+.catchphraseLabel {
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.catchphraseContainer button {
+    width:fit-content;
+    max-width: 100%;
+    margin-top: 10px;
+}
