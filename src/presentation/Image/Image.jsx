@@ -5,9 +5,6 @@ export default function Image({head, torso, legs}){
         <section className="imageContainer">
             <div className="head"
                 style={{ backgroundImage: `url(./${head}-head.png)`, 
-                // height: 200,
-                // width: 250,
-                // backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
             }}>
             </div>
@@ -16,7 +13,8 @@ export default function Image({head, torso, legs}){
                 height: 100,
                 width: 150,
                 backgroundSize: 'contain',
-                backgroundRepeat: 'no-repeat'
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center'
             }}>
             </div>
             <div className="legs"
@@ -24,7 +22,8 @@ export default function Image({head, torso, legs}){
                 height: 100,
                 width: 150,
                 backgroundSize: 'contain',
-                backgroundRepeat: 'no-repeat'
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center'
             }}>
             </div>
         </section>

@@ -1,7 +1,7 @@
 import './App.css'
 import React, { useState } from 'react'
-import Body from './presentation/Body.jsx'
-import Image from './presentation/Image';
+import Body from './presentation/Body/Body.jsx'
+import Image from './presentation/Image/Image';
 
 function App() {
   const [head, setHead] = useState('bird');
