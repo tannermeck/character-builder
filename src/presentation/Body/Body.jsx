@@ -37,7 +37,7 @@ export default function Body({ head, onHeadChange, torso, onTorsoChange, legs, o
                 </select>
             </div>
         </section>
-        <div className="catchphraseContainer">
+        <div className="catchphraseDivContainer">
             <label className="catchphraseLabel">Add a Catchphrase:</label>
             <input type="text" onChange={(e) => setCatchphrase(e.target.value)}/>
             <button onClick={(e) => handleClick(e.target.value)}>Add Catchphrase</button>
