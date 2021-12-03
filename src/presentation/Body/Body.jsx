@@ -1,6 +1,7 @@
 import React from 'react';
+import './Body.css'
 
-export default function Body({ head, onHeadChange, torso, onTorsoChange, legs, onLegChange }){
+export default function Body({ head, onHeadChange, torso, onTorsoChange, legs, onLegChange, handleClick, setCatchphrase }){
     const headOptions = ['bird', 'cat', 'dog', 'goat', 'pig']
     const torsoOptions = ['black-blouse', 'blue-shirt', 'red-blouse', 'sweater', 'tuxedo']
     const legOptions = ['blue-shorts', 'grey-jeans', 'speedo', 'swimtrunks', 'elf']
@@ -36,6 +37,11 @@ export default function Body({ head, onHeadChange, torso, onTorsoChange, legs, o
                 </select>
             </div>
         </section>
+        <div className="catchphraseDivContainer">
+            <label className="catchphraseLabel">Add a Catchphrase:</label>
+            <input type="text" onChange={(e) => setCatchphrase(e.target.value)}/>
+            <button onClick={(e) => handleClick(e.target.value)}>Add Catchphrase</button>
+        </div>
     </>
     )
 }

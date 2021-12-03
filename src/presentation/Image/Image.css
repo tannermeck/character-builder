@@ -1,0 +1,27 @@
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.head {
+    height: 100px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.torso {
+    height: 100px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.legs {
+    height: 100px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

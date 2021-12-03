@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a snapshot test of the body 1`] = `
+<div>
+  <section>
+    <h1>
+      Head:
+    </h1>
+    <div>
+      <select>
+        <option>
+          bird
+        </option>
+        <option>
+          cat
+        </option>
+        <option>
+          dog
+        </option>
+        <option>
+          goat
+        </option>
+        <option>
+          pig
+        </option>
+      </select>
+    </div>
+  </section>
+  <section>
+    <h1>
+      Torso:
+    </h1>
+    <div>
+      <select>
+        <option>
+          black-blouse
+        </option>
+        <option>
+          blue-shirt
+        </option>
+        <option>
+          red-blouse
+        </option>
+        <option>
+          sweater
+        </option>
+        <option>
+          tuxedo
+        </option>
+      </select>
+    </div>
+  </section>
+  <section>
+    <h1>
+      Legs:
+    </h1>
+    <div>
+      <select>
+        <option>
+          blue-shorts
+        </option>
+        <option>
+          grey-jeans
+        </option>
+        <option>
+          speedo
+        </option>
+        <option>
+          swimtrunks
+        </option>
+        <option>
+          elf
+        </option>
+      </select>
+    </div>
+  </section>
+  <div
+    class="catchphraseDivContainer"
+  >
+    <label
+      class="catchphraseLabel"
+    >
+      Add a Catchphrase:
+    </label>
+    <input
+      type="text"
+    />
+    <button>
+      Add Catchphrase
+    </button>
+  </div>
+</div>
+`;

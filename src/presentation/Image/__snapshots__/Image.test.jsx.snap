@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render images in a snapshot 1`] = `
+<div>
+  <section
+    class="imageContainer"
+  >
+    <div
+      class="head"
+      style="background-image: url(./goat-head.png);"
+    />
+    <div
+      class="torso"
+      style="background-image: url(./black-blouse-torso.png);"
+    />
+    <div
+      class="legs"
+      style="background-image: url(./speedo-legs.png);"
+    />
+  </section>
+</div>
+`;
